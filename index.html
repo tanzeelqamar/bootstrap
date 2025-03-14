@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Fleur+De+Leah&family=Funnel+Display:wght@300..800&family=Lavishly+Yours&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#">Launch Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav navbar_color">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mx-3" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn btn-primary rounded-pill mt-1 mx-3">Get Started</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        </div>
+
+    </nav>
+
+    <section class="hero mt-4">
+        <div class="container col-md-6 text-center">
+
+            <h1>Welcome To LaunchPage</h1>
+            <p class="hero-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptas
+                recusandae est, ea eos incidunt id libero beatae atque consequatur! Libero adipisci obcaecati dolorum
+                tenetur tempore esse, architecto saepe praesentium!</p>
+            <div class="hero-form">
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2 rounded-pill" placeholder="Enter your text" required
+                        id="input">
+                    <button type="submit" class="btn btn-primary1 rounded-pill">Get Started!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="featured-section">
+        <div class="container">
+
+            <div class="col-md-6 text-center mx-auto">
+                <h2 class="featured-title">As featured in:</h2>
+                <img src="./images/award3a.png" alt="partner" class="partner">
+                <img src="./images/award4a.png" alt="partner" class="partner">
+                <img src="./images/award5.png" alt="partner" class="partner">
+                <img src="./images/award1a.png" alt="partner" class="partner">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="section-about mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="about-title">What We Do</h2>
+                    <p class="about-para">Dicover how our amazing team can help your business.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="section-desc">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="section-chart">
+                            <i class="fa-solid fa-chart-column fa-4x" id="chart"></i>
+                            <h3 class="text-center chart-title">Google Analytics</h3>
+                            <p class="text-center chart-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur, at! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, porro.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="section-chart">
+                            <i class="fa-solid fa-heart fa-4x" id="heart"></i>
+                            <h3 class="text-center chart-title">Brand Awareness</h3>
+                            <p class="text-center chart-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur, at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ab.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="section-chart">
+                            <i class="fa-solid fa-anchor fa-4x" id="anchor"></i>
+                            <h3 class="text-center chart-title">Graphic Design</h3>
+                            <p class="text-center chart-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Consectetur, at! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem,
+                                laboriosam.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-discover">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 slideInLeft col-sm-12">
+                    <div class="margin-right-20">
+                        <img src="./images/about001.jpg" alt="image" class="width-50 mt-5 image-shadow">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="discover-title mt-5">Discover how we can help you to grow your business fast.</h2>
+                    <p class="discover-para mt-4 fs-5">Velis demo enim ipsam voluptatem quia voluptas sit aspernatur
+                        netsum lorem fugit, seditum netis velas matrix net nesciunt.</p>
+                    <ul class="options">
+                        <li><i class="fa-solid fa-check" id="tick"></i>Quias netus magni netsum eos qui ratione sequi.
+                        </li>
+                        <li><i class="fa-solid fa-check" id="tick"></i> Venis ratione sequi netus enim quia tempor magni
+                        </li>
+                        <li><i class="fa-solid fa-check" id="tick"></i>Enim ipsam netus voluptatem quia voluptas.</li>
+                    </ul>
+                    <button type="submit" class="btn btn-primary2 rounded-pill mb-5">Discover More</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section-custom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="flex-column column">
+                        <div class="col-column mt-5">
+                            <div class="col-second">
+                                <div class="chart-line">
+                                    <i class="fa-solid fa-chart-line fa-3x chart-lines"></i>
+                                </div>
+                                <h3 class="section-work">Customize your work flow</h3>
+                                <p class="section-manage">Manage any process and be ready to address any challenge with
+                                    total ease.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="col">
+                            <div class="network">
+                                <i class="fa-solid fa-network-wired fa-3x network-lines"></i>
+                            </div>
+                            <h3 class="section-work">Easy onboarding fast adoption.</h3>
+                            <p class="section-manage">With Square getting your team on board is as simple as sending an
+                                email.</p>
+                        </div>
+
+                        <div class="col">
+                            <div class="network">
+                                <i class="fa-solid fa-rocket fa-3x rocket"></i>
+                            </div>
+                            <h3 class="section-work">Improve subscriber retention.</h3>
+                            <p class="section-manage">Analyze customer by region, discounts and more and put a plan in
+                                place.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="./images/about2.jpg" alt="image" class="w-100 shadow">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bg-2 mt-5">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 text-center">
+                    <h2 class="section-fun mt-5 margin-left-200">Fun facts about our agency.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mt-5 mb-5">
+                    <i class="fa-regular fa-gem fa-4x"></i>
+                    <p class="desc">
+                    <p>
+                        1050+ <br />projects completed
+                    </p>
+                    </p>
+
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <i class="fa-solid fa-heart fa-4x"></i>
+                    <p class="desc">
+                    <p>
+                        207k <br />Happy clients
+                    </p>
+                    </p>
+
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <i class="fa-solid fa-award fa-4x"></i>
+                    <p class="desc">
+                    <p>
+                        1210 <br />Design awards
+                    </p>
+                    </p>
+
+                </div>
+
+                <div class="col-md-3 mt-5 mb-5">
+                    <i class="fa-solid fa-anchor fa-4x"></i>
+                    <p class="desc">
+                    <p>
+                        2173 <br />Line of codes
+                    </p>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="section-testimonial mt-5">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 mt-5">
+                    <h2 class="section-test-head mt-5">What People Are Saying.</h2>
+                    <p class="fs-5">Quis autem velis ets reprehender net etid quiste nets voluptate. Utise wisi enim
+                        minim veniam, quis etsad aspernatis netsum stationes nets.</p>
+                    <div class="row col-sm-6 col-md-6 col-lg-6 mt-5 d-flex flex-row">
+                        <div class="col-md-6 border-right">
+                            <p class="trust fw-bold">
+                                TrustPilot
+                            </p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <p class="trust fw-bold">
+                                Feefo
+                            </p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 mx-auto mt-5">
+                    <div class="card custom-card mb-3">
+                        <div class="card-body text-center">
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                                tenetur quibusdam corrupti, hic ullam laboriosam.</p>
+                            <img src="./images/testimonials3.jpg" class="card-img-top mt-2" alt="Person">
+                            <div class="name-row mt-3">
+                                <h5 class="mb-0">Alexandra Smith</h5>
+                                <p class="text-color fw-bold mb-0">Manager - SmartCoders</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="card custom-card mb-3 w-100">
+                        <div class="card-body text-center">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iste
+                                eius asperiores minima voluptatibus cum!</p>
+                            <img src="./images/testimonials2.jpg" class="card-img-top mt-2" alt="Person">
+                            <div class="name-row mt-3">
+                                <h5 class="mb-0">John Doe</h5>
+                                <p class="mb-0 fw-bold text-color">CEO - Epic Design</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card custom-card mb-3">
+                        <div class="card-body text-center">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo officia
+                                natus accusamus ipsam atque reiciendis!</p>
+                            <img src="./images/testimonials1.jpg" class="card-img-top mt-2" alt="Person">
+                            <div class="name-row mt-3">
+                                <h5 class="mb-0">Christina Pages</h5>
+                                <p class="text-color fw-bold mb-0">Designer - New Fashion</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <section class="portfolio mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-port fs-1">Our Portfolio</h2>
+                    <p class="text fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, repellat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 g-3">
+                <div class="col-md-3">
+                    <img src="./images/gallery1.jpg" class="portfolio-image img-fluid" alt="img1">
+                    <img src="./images/gallery2.jpg" class="portfolio-image img-fluid mt-3" alt="img2">
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/gallery3.jpg" class="portfolio-image img-fluid tall" alt="img3">
+                </div>
+                <div class="col-md-3">
+                    <img src="./images/gallery4.jpg" class="portfolio-image img-fluid" alt="img4">
+                    <img src="./images/gallery5.jpg" class="portfolio-image img-fluid mt-3" alt="img5">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="team text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="section-port fs-1 mt-5">Meet Our Team</h2>
+                    <p class="text fs-4">Discover more about our high performing team.</p>
+                </div>
+
+                <div class="col-sm-12 col-md-4 bg-color mb-4">
+                    <img src="./images/team001.jpg" class="w-100 mt-2 team-image" alt="team1">
+                    <div class="team-name">
+                        <h3 class="fw-bold mt-3">CHRITINA HAWKINS</h3>
+                        <p class="desg text-muted fs-4"><i>Head of SEO</i></p>
+                    </div>
+                    <div class="line text-center">
+                        <i class="fa-solid fa-minus fa-3x"></i>
+                    </div>
+                    <div>
+                        <p class="team-para fs-5">
+                            Johnathan is our co-founder and has developed search strategies for a variety of clients for
+                            over 5 years.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 bg-color mb-4">
+                    <img src="./images/team002.jpg" class="w-100 mt-2 team-image" alt="team1">
+                    <div class="team-name">
+                        <h3 class="fw-bold mt-3">ANDRES JOHANSON</h3>
+                        <p class="desg text-muted fs-4"><i>Marketing Manager</i></p>
+                    </div>
+                    <div class="line text-center">
+                        <i class="fa-solid fa-minus fa-3x"></i>
+                    </div>
+                    <div>
+                        <p class="team-para fs-5">
+                            Andres fell in love with marketing at the school and looks forward to being part of the
+                            industry for years.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 bg-color mb-4">
+                    <img src="./images/team003.jpg" class="w-100 mt-2 team-image" alt="team1">
+                    <div class="team-name">
+                        <h3 class="fw-bold mt-3">ALEXANDRA SMITH</h3>
+                        <p class="desg text-muted fs-4"><i>SEO Specialist</i></p>
+                    </div>
+                    <div class="line text-center">
+                        <i class="fa-solid fa-minus fa-3x"></i>
+                    </div>
+                    <div>
+                        <p class="team-para fs-5">
+                            Graduating with a degree in Spanish, English and French, she has always loved writing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-2 mt-5">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-fun mt-5 mx-auto award">Award Winning Agency</h2>
+                    <p class="red-para text-center mx-auto fs-5">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Repellat eligendi facilis, molestias temporibus ipsam sunt hic, minima repellendus culpa
+                        dicta optio natus sit ipsa magni nemo eaque ut sint aut.</p>
+                </div>
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-sm-6 col-md-6 mx-auto mb-3">
+                    <button class="more-btn rounded-pill">Discover More</button>
+                    <button class="touch-btn rounded-pill">Get In Touch</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="features mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 mt-5">
+                    <h2 class="amazing">Amazing Features</h2>
+                    <p class="fs-5">Quis autem velis ets reprehender net etid quiste voluptate.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-screwdriver-wrench fa-3x wrench"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">Support 24/7</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-users-line fa-3x users"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">User Friendly</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-bell fa-3x bell"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">Notification</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-gift fa-3x gift"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">Accesibility</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-piggy-bank fa-3x bank"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">Cost Control</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tools">
+                        <i class="fa-solid fa-comments fa-3x comment"></i>
+                        <div class="text-features">
+                            <h3 class="fs-4 mt-3 mx-5">Chat With Friends</h3>
+                            <p class="features-para mx-5 fs-5">Utise wisi enim minim veniam, quis tation ullamcorper
+                                suscipit et loboti nisl consequat nihis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-sm-12">
+                    <h3 class="fs-4 mt-5 pricing-text">Great pricing plans tailored to your needs.</h3>
+                    <p class="fs-5 pricing-para">
+                        Utise wisi enim minim veniam, quis tation ullamcorper suscipit et loboti nisl consequat nihis.
+                    </p>
+                </div>
+
+
+
+                <div class="col-md-4 col-sm-12 monthly mt-5 mb-5 text-center">
+                    <p class="mt-3 fs-3">Monthly</p>
+                    <h3 class="mt-5 fs-1 fw-bolder">$19</h3>
+                    <p class="fs-5">Per Month</p>
+                    <button class="mt-5 btn-get fs-5">Get Started</button>
+                    <p class="text-muted mt-5 fs-5">First two weeks free.<br />
+                        Amazing freatures.</p>
+                </div>
+
+                <div class="col-md-4 col-sm-12 annualy mb-3 mt-3 text-center">
+                    <p class="mt-3 fs-3">Annualy</p>
+                    <h3 class="mt-5 fw-bolder dollar">$29</h3>
+                    <p class="fs-5 per-year">Per Year</p>
+                    <button class="mt-5 btn-gets fs-5 rounded-pill">Get Started</button>
+                    <p class="text-annualy mt-5 fs-5">First two weeks free.<br />
+                        Save 45% with this plan<br />
+                        Amazing freatures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="qna mt-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="qna-ask fs-1 mt-5">Frequently Asked Questions</h3>
+                    <p class="fs-4 text-muted">Quis autem velis ets reprehender net etid quiste voluptate.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-sm-6">
+                    <div class="qna-text">
+                        <h3 class="qna-ask fs-4">Velit ut tortizi pretium viverra suspendisse?</h3>
+                        <p class="qna-para text-muted fs-5 w-100">Utise wisi enim minim veniam, quis et stationes
+                            ullamcorper nets suscipit ets lobotis nisle consequat nihis etim. Quis autem velis ets
+                            reprehender net etid quiste voluptate velite esse sedis.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="qna-text">
+                        <h3 class="qna-ask fs-4">Nibh sit amet aliquam commodo?</h3>
+                        <p class="qna-para text-muted fs-5 w-100">Utise wisi enim minim veniam, quis et stationes
+                            ullamcorper nets suscipit ets lobotis nisle consequat nihis etim. Quis autem velis ets
+                            reprehender net etid quiste voluptate velite esse sedis.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="qna-text">
+                        <h3 class="qna-ask fs-4">Maecenas volutpat blandit etiam?</h3>
+                        <p class="qna-para text-muted fs-5 w-100">Utise wisi enim minim veniam, quis et stationes
+                            ullamcorper nets suscipit ets lobotis nisle consequat nihis etim. Quis autem velis ets
+                            reprehender net etid quiste voluptate velite esse sedis.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6">
+                    <div class="qna-text">
+                        <h3 class="qna-ask fs-4">Elementum curabitur vitae?</h3>
+                        <p class="qna-para text-muted fs-5 w-100">Utise wisi enim minim veniam, quis et stationes
+                            ullamcorper nets suscipit ets lobotis nisle consequat nihis etim. Quis autem velis ets
+                            reprehender net etid quiste voluptate velite esse sedis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-2 mt-3 overlay">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="section-fun mt-5 mx-auto award">Contact Us</h2>
+                    <p class="red-para text-center mx-auto fs-5">Have any queries? Get in touch today.</p>
+                </div>
+            </div>
+            <div class="row form col-md-12 text-center">
+                <form>
+                    <div class="col-md-12 mx-auto">
+                        <input type="text" placeholder="Your name*" class="name" required>
+                        <input type="email" placeholder="Email Address*" class="name" required>
+                    </div>
+                    <div class="col-md-12 mx-auto">
+                        <input type="number" placeholder="Phone Number*" class="phone" required>
+                        <select name="options" id="options" class="phone1">
+                            <option value="chooseoption">Choose Options</option>
+                            <option value="individual">Individual</option>
+                            <option value="corporate">Corporate</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12 mx-auto">
+                        <textarea name="message" id="message" class="message">Your Message*</textarea>
+                    </div>
+                    <div class="col-sm-6 col-md-12 mx-auto mb-3">
+                        <button class="get-btn fw-bold">Get In Touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 mt-3 mx-auto">
+                    <p><i class="fa-solid fa-copyright"></i> 2020 <b>Launch Page.</b> Designed
+                    <br/>By <u> EpicThemes</u></p>
+
+                </div>
+
+                <div class="col-md-6 col-sm-6 mt-3">
+                    <p class="brands">Follow us on: <i class="fa-brands fa-twitter fa-2x twitter"></i><i class="fa-brands fa-pinterest fa-2x pinterest"></i><i class="fa-brands fa-facebook fa-2x facebook"></i><i class="fa-brands fa-instagram fa-2x insta"></i><i class="fa-brands fa-skype fa-2x skype"></i></p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,585 @@
+
+.btn-primary{
+    color: aliceblue;
+    background-color: rgb(211, 52, 52);
+    border: 1px solid rgb(211, 52, 52);
+    transition: 0.4s;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: rgb(211, 52, 52);
+    border: 1px solid rgb(211, 52, 52);
+}
+ul{
+        color:grey;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        line-height: 30px;
+}
+.navbar-brand{
+    color: rgb(211, 52, 52);
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+.hero{
+    background: url(./images/bg2.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); 
+    margin-top: 95px;
+}
+.hero .container {
+    display: block;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.hero h1{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800; 
+}
+.hero-text{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+form{
+height: 60px;
+}
+#input{
+    padding-left: 30px;
+}
+.btn-primary1{
+    background-color: rgb(211, 52, 52);
+    color: white;
+    border: 1px solid rgb(211, 52, 52);
+    width: 250px;
+    font-size: larger;
+    font-weight: bold;
+}
+.btn-primary1:hover{
+    background-color: rgb(211, 52, 52);
+    color: white;
+    border: 1px solid rgb(211, 52, 52);
+    width: 250px;
+}
+.featured-title{
+    display: inline-block;
+    color: rgb(5, 5, 56);
+    font-size: 25px;
+}
+.partner{
+    opacity: 0.3;
+   max-height: 50px;
+   margin: 10px 15px;
+}
+.partner:hover{
+    opacity: 1;
+}
+.section-about{
+    background-color: aliceblue;
+    height: 500px;
+}
+.about-title{
+    margin-top: 50px;
+    font-family:"Nunito", sans-serif;
+    font-weight: 800; 
+    font-size: 50px;
+    color: rgb(5, 5, 56);
+}
+.about-para{
+    font-size: larger;
+    color: rgb(155, 153, 153);
+}
+#chart{
+    margin-left: 140px;
+    color:rgb(109, 109, 247);
+}
+.chart-para{
+    color: rgb(155, 153, 153);
+}
+#heart{
+    color: rgb(211, 52, 52);
+    margin-left: 150px;
+}
+#anchor{
+    color: rgb(67, 153, 67);
+    margin-left: 150px;
+}
+.chart-title{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800; 
+}
+.image-shadow{
+    box-shadow: 10px 12px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-right:20px ;
+    width: 350px;
+}
+.margin-right-20{
+    margin-right: 20px;
+}
+ul{
+    list-style: none;
+}
+#tick{
+    color: rgb(211, 52, 52);
+}
+.discover-title{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+    padding-left: 30px; 
+}
+.discover-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    color: rgb(155, 153, 153);
+}
+.btn-primary2{
+    background-color: rgb(211, 52, 52);
+    color: white;
+    border: 1px solid rgb(211, 52, 52);
+    width: 150px;
+    font-size: large;
+    font-family:"Nunito", sans-serif;
+    font-weight: 500;
+    box-shadow: 10px 12px 40px rgba(0, 0, 0, 0.2);
+}
+.section-custom{
+    background-color: aliceblue;
+}
+.col-column{
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    
+}
+
+.col-second{
+    margin: 10px;
+}
+.chart-lines{
+    float: left;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.section-work{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.section-manage{
+    color: rgb(155, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.network-lines{
+    float: left;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding:20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: rgb(211, 52, 52);
+}
+.rocket{
+    float: left;
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding:25px;
+    padding-left: 25px;
+    margin-top: 15px;
+    color: rgb(67, 153, 67);
+}
+.shadow{
+    border-radius: 8px;
+}
+.bg-2{
+    background-image: url(./images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bg-overlay::before{
+   
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(133, 3, 3, 0.4);
+        margin-top: 0px;
+    
+}
+.section-fun{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-left: 250px;
+}
+.col-md-3{
+    color: white;
+    font-size: larger;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+.section-testimonial{
+    background-color: aliceblue;
+}
+.section-test-head{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.fs-5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(155, 153, 153);
+}
+.trust{
+    color: rgb(5, 5, 56);
+}
+.star{
+    color: rgb(248, 248, 14);
+}
+.border-right{
+    border-right: 1px solid rgb(155, 153, 153);
+
+}
+.custom-card {
+    border-left: 5px solid rgb(67, 153, 67); 
+    padding: 15px;
+    transition: 0.3s;
+}
+.custom-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.name-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+.text-color{
+    color: rgb(67, 153, 67);
+}
+.section-port{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.text{
+    color: rgb(155, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.portfolio-image {
+    width: 100%;
+    object-fit: cover;
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+}
+.tall {
+    height: 50%;
+    object-fit: fill; 
+}
+.portfolio-image:hover{
+    opacity: 0.3;
+}
+.team{
+    background-color: aliceblue;
+    margin-top: -140px;
+}
+.bg-color{
+    background-color: white;
+    border-radius: 8px;
+}
+.team-image{
+    border-radius: 8px;
+}
+.fw-bold{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.line{
+    color: rgb(211, 52, 52);
+}
+.team-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(155, 153, 153);
+}
+.more-btn{
+    position: relative;
+    background-color: white;
+    color: rgb(211, 52, 52);
+    height: 50px;
+    width: 200px;
+    border-color: white;
+    font-family:"Nunito", sans-serif;
+    font-weight: 600;
+}
+.touch-btn{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-color: white;
+    font-family:"Nunito", sans-serif;
+    font-weight: 600;
+}
+.touch-btn:hover{
+    background-color: white;
+    border-color: white;
+    color: rgb(211, 52, 52);
+    transition: 0.3s;
+}
+.red-para{
+    position: relative;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.award{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.amazing{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.wrench{
+    color: rgb(67, 153, 67);
+}
+.users{
+    color: rgb(109, 109, 247);
+}
+.bell{
+    color: orangered;
+}
+.text-features h3{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.text-features p{
+    color: rgb(155, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gift{
+    color: rgb(109, 109, 247);
+}
+.bank{
+    color: orangered;
+}
+.comment{
+    color: rgb(67, 153, 67);
+}
+.pricing{
+    background-color: aliceblue;
+    height: 600px;
+}
+.pricing-text{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.pricing-para{
+    color: rgb(155, 153, 153);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.monthly{
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+}
+.btn-get{
+    border: 0px;
+    color: rgb(211, 52, 52);
+    background-color: white;
+}
+.btn-get:hover{
+    color: black;
+}
+.annualy{
+    background-color: rgb(211, 52, 52);
+    border-radius: 8px;
+    color: white;
+    width: 200px;
+  margin-left: 20px;
+}
+.per-year{
+    color: white;
+}
+.dollar{
+    font-size: 50px;
+}
+.btn-gets{
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    color: rgb(211, 52, 52);
+}
+.btn-gets:hover{
+    background-color: transparent;
+    color: white;
+}
+.text-annualy{
+    color: white;
+}
+.qna-ask{
+    font-family:"Nunito", sans-serif;
+    font-weight: 800;
+}
+.form{
+    position: relative;
+}
+.name{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+}
+.name::placeholder{
+    color: white;
+    opacity: 1;
+    position: relative;
+}
+.phone{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+margin-right: 10px;
+}
+.phone::placeholder{
+    color: white;
+    opacity: 1;
+    
+}
+.overlay{
+    height: 900px;
+}
+.phone1 option{
+    color: rgb(92, 91, 91);
+    width: 250px;
+}
+.phone1{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+margin-right: 10px;
+width: 185px;
+}
+.phone1::placeholder{
+    color: white;
+    opacity: 1;
+}
+.message{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 9px;
+    height: 150px;
+    color: white;
+    margin: 10px;
+margin-right: 10px;
+width: 390px;
+}
+.get-btn{
+    color: rgb(211, 52, 52);
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    border-color: white;
+    width: 200px;
+    height: 50px;
+}
+.get-btn:hover{
+    background-color: transparent;
+    color: white;
+}
+u{
+    color: rgb(211, 52, 52);
+    cursor: pointer;
+}
+.brands{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.twitter{
+    color: rgb(109, 109, 247);
+    margin: 10px;
+}
+.twitter:hover{
+    color: rgb(211, 52, 52);
+}
+.pinterest{
+    color: rgb(211, 52, 52);
+    margin: 10px;
+}
+.facebook{
+    color: rgb(109, 109, 247);
+    margin: 10px;
+}
+.facebook:hover{
+    color: rgb(211, 52, 52);
+}
+.skype{
+    color: rgb(109, 109, 247);
+    margin: 10px;
+}
+.skype:hover{
+    color: rgb(211, 52, 52);
+}
+.insta{
+    color: rgb(209, 107, 209);
+    margin: 10px;
+}
+.insta:hover{
+    color: rgb(211, 52, 52);
+}
